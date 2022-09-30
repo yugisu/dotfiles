@@ -1,0 +1,16 @@
+[
+  "teabyii.ayu",
+  "ms-vscode.sublime-keybindings",
+
+  "dbaeumer.vscode-eslint",
+  "esbenp.prettier-vscode",
+  "eamodio.gitlens",
+  "wayou.vscode-todo-highlight",
+
+  "styled-components.vscode-styled-components",
+  "GraphQL.vscode-graphql-syntax",
+  "jock.svg",
+  "mathiasfrohlich.Kotlin",
+
+  "ms-vscode-remote.remote-containers"
+]
