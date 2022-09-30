@@ -16,7 +16,7 @@ $ ./install-extensions.mjs
 
 To use it, just copy-paste the contents to your VSCode config file, or create a symlink to this file:
 
-#### Windows WSL
+#### Creating a symlink in Windows WSL
 
 ```cmd
 mklink <VSCode installation directory>\User\settings.json <path to this repository>\vscode\settings.json
