@@ -12,13 +12,15 @@ $ ./install-extensions.mjs
 
 ## Config
 
-[`settings.json`](./settings.json) contains settings I use in VSCode.
+[`settings.json`](./settings.json) contains VSCode settings I prefer.
+[`keybindings.json`](./keybindings.json) contains VSCode settings I prefer.
 
-To use it, just copy-paste the contents to your VSCode config file, or create a symlink to this file:
+To use these files, you can copy-paste the contents to VSCode config files, or create symlinks to these files:
 
 #### Creating a symlink in Windows WSL
 
 ```cmd
+:: CMD with elevated permissions
 mklink <VSCode installation directory>\User\settings.json <path to this repository>\vscode\settings.json
 
 :: For example,
