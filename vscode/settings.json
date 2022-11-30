@@ -1,10 +1,14 @@
 {
+  //
   // Telemetry
+  //
   "telemetry.telemetryLevel": "off",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
 
+  //
   // Appearance
+  //
   "workbench.colorTheme": "Ayu Mirage",
   "workbench.colorCustomizations": {
     "sideBar.foreground": "#90a3ad"
@@ -14,6 +18,9 @@
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
   "editor.showFoldingControls": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
   "workbench.editor.decorations.badges": false,
   "workbench.panel.opensMaximized": "never",
   "workbench.editor.labelFormat": "short",
@@ -55,7 +62,9 @@
   "window.enableMenuBarMnemonics": false,
   "editor.semanticHighlighting.enabled": true,
 
+  //
   // Editing experience
+  //
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "newUntitledFile",
   "editor.stickyScroll.enabled": true,
@@ -81,7 +90,9 @@
   "editor.suggest.insertMode": "replace",
   "editor.wordBasedSuggestionsMode": "currentDocument",
 
+  //
   // Code formatting / Linting
+  //
   "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -117,7 +128,9 @@
   "prettier.endOfLine": "auto",
   "prettier.printWidth": 140,
 
+  //
   // SCM / Git
+  //
   "scm.autoReveal": false,
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -130,7 +143,9 @@
   "githubPullRequests.fileListLayout": "tree",
   "githubPullRequests.createOnPublishBranch": "never",
 
+  //
   // Lang-specific
+  //
   "editor.inlayHints.enabled": "on",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.workspaceSymbols.scope": "currentProject",
@@ -139,10 +154,14 @@
   "typescript.inlayHints.parameterNames.enabled": "literals",
   "svg.preview.mode": "svg",
 
+  //
   // Security
+  //
   "security.workspace.trust.enabled": false,
 
+  //
   // Extensions
+  //
   "todohighlight.keywords": [
     {
       "text": "TODO:",
@@ -170,7 +189,9 @@
     }
   ],
 
+  //
   // Misc
+  //
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
