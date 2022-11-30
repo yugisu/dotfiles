@@ -2,16 +2,24 @@
 
 ## Programs
 
-Programs I use:
+Things I use:
 
-- iTerm2
-- VSCode
-- CommandQ - Slow down `cmd+Q` command
-- Witch - Predictable `cmd+backtick` command
-- Dozer - Hiding icons from the topbar
-- Pandan - Session length tracking
-- MeetingBar - Upcoming meetings icon in the topbar
-- ScrollReverser - Usable mouse scroll
+Dev
+
+- [iTerm2](https://iterm2.com/)
+- [oh-my-zsh](https://ohmyz.sh/)
+- [VSCode](https://code.visualstudio.com/)
+- [nvm](https://github.com/nvm-sh/nvm)
+
+Utils
+
+- [Homebrew](https://brew.sh/)
+- [CommandQ](https://commandqapp.com/) - Slow down `cmd+Q` command
+- [Witch](https://manytricks.com/witch/) - Predictable `cmd+backtick` command
+- [Dozer](https://github.com/Mortennn/Dozer) - Hiding icons from the topbar
+- [Pandan](https://sindresorhus.com/pandan) - Session length tracking
+- [MeetingBar](https://github.com/leits/MeetingBar) - Upcoming meetings icon in the topbar
+- [ScrollReverser](https://pilotmoon.com/scrollreverser/) - Usable mouse scroll
 
 ### Program Settings
 
