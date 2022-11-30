@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AXAPI Timeout</key>
+	<integer>100</integer>
+	<key>Action Configurations</key>
+	<array>
+		<dict>
+			<key>Action Type</key>
+			<integer>5</integer>
+			<key>Hot Key: Reverse</key>
+			<dict>
+				<key>Key Code</key>
+				<integer>50</integer>
+				<key>Modifiers</key>
+				<integer>1179914</integer>
+				<key>Visual Representation</key>
+				<string>⇧⌘`</string>
+			</dict>
+			<key>Hot Key: Standard</key>
+			<dict>
+				<key>Key Code</key>
+				<integer>50</integer>
+				<key>Modifiers</key>
+				<integer>1048840</integer>
+				<key>Visual Representation</key>
+				<string>⌘`</string>
+			</dict>
+			<key>Menu</key>
+			<true/>
+			<key>Orientation</key>
+			<integer>1</integer>
+			<key>Placeholder</key>
+			<false/>
+			<key>Placeholder: Mode</key>
+			<integer>1</integer>
+			<key>Sort Order</key>
+			<integer>3</integer>
+			<key>Sort Order: Invert</key>
+			<false/>
+			<key>Spaces</key>
+			<true/>
+			<key>Tabs</key>
+			<false/>
+			<key>Tabs: Frontmost Window Only</key>
+			<false/>
+			<key>Tabs: Mode</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>Activate Item</key>
+	<true/>
+	<key>Activate On No Modifiers</key>
+	<true/>
+	<key>Application Name Shadow</key>
+	<false/>
+	<key>Auto-Enabled Once</key>
+	<true/>
+	<key>Cancel Item</key>
+	<false/>
+	<key>Cancel Item Mode</key>
+	<integer>1</integer>
+	<key>Cycle Apps &gt; Windows: Ignore Parent Orientation</key>
+	<true/>
+	<key>Icon Mode</key>
+	<integer>0</integer>
+	<key>Icon Mode: Superimpose Application Icon</key>
+	<true/>
+	<key>Ignore Non-Standard Windows</key>
+	<true/>
+	<key>Initial Selection: Sorted By Activity: Skip Active Entry</key>
+	<true/>
+	<key>Item Height</key>
+	<real>39</real>
+	<key>Last Daemon Hash</key>
+	<data>
+	eaEqrl8PUHqc2r/sJSo0JZGUmAc=
+	</data>
+	<key>Last Selected Tab</key>
+	<string>actions</string>
+	<key>Panel Delay</key>
+	<integer>0</integer>
+	<key>Panel Shadow</key>
+	<true/>
+	<key>Preview Delay</key>
+	<integer>100</integer>
+	<key>Run Badge Script</key>
+	<true/>
+	<key>Show Application Names</key>
+	<true/>
+	<key>Show Minimized Bevels</key>
+	<true/>
+	<key>Show Panel On Mouse Screen</key>
+	<integer>2</integer>
+	<key>Show Previews</key>
+	<false/>
+	<key>Show Search Field</key>
+	<false/>
+	<key>Show Search Field: Disabling Mask</key>
+	<integer>0</integer>
+	<key>Spring-Load</key>
+	<false/>
+	<key>Use Core Window Fallback: Use AppleScript</key>
+	<true/>
+	<key>Window Name Shadow</key>
+	<false/>
+	<key>Wrap-Around Scrolling</key>
+	<false/>
+</dict>
+</plist>
