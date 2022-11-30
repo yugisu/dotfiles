@@ -1,0 +1,52 @@
+[
+  {
+    "key": "alt+1",
+    "label": "Open Dory Jira",
+    "action": "gototab",
+    "matchurl": "https://fluxon.atlassian.net/jira/software/c/projects/DORY/boards/19*",
+    "openurl": "https://fluxon.atlassian.net/jira/software/c/projects/DORY/boards/19",
+    "activeInInputs": true,
+    "sites": "",
+    "sitesArray": [
+      ""
+    ],
+    "bookmark": "Dory Jira"
+  },
+  {
+    "key": "alt+2",
+    "label": "Open Calendar",
+    "action": "gototab",
+    "bookmark": "Calendar",
+    "sites": "",
+    "sitesArray": [
+      ""
+    ],
+    "matchurl": "https://calendar.google.com/calendar/u/0/r*",
+    "openurl": "https://calendar.google.com/calendar/u/0/r",
+    "activeInInputs": true
+  },
+  {
+    "key": "alt+4",
+    "label": "Open Dory GitHub",
+    "action": "openbookmarknewtab",
+    "activeInInputs": true,
+    "sites": "",
+    "sitesArray": [
+      ""
+    ],
+    "bookmark": "Dory GitHub",
+    "blacklist": false
+  },
+  {
+    "key": "alt+3",
+    "label": "Open Dory Figma",
+    "action": "gototab",
+    "matchurl": "https://www.figma.com/file/myS410cXePuc4imdaoIalL/Dory*",
+    "openurl": "https://www.figma.com/file/myS410cXePuc4imdaoIalL/Dory",
+    "activeInInputs": true,
+    "sites": "",
+    "sitesArray": [
+      ""
+    ]
+  }
+]
