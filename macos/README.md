@@ -5,6 +5,7 @@
 Programs I use:
 
 - iTerm2
+- VSCode
 - CommandQ - Slow down `cmd+Q` command
 - Witch - Predictable `cmd+backtick` command
 - Dozer - Hiding icons from the topbar

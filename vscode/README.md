@@ -10,6 +10,10 @@ If you want to install them automatically, just run the following command (you h
 $ ./install-extensions.mjs
 ```
 
+## Appearance
+
+Font used: [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
+
 ## Config
 
 [`settings.json`](./settings.json) contains VSCode settings I prefer.
@@ -31,6 +35,8 @@ mklink C:\Users\yugisu\AppData\Roaming\Code\User\settings.json \\wsl.localhost\U
 
 ```bash
 # MacOS
-ln -s "<path to this repository>/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-ln -s "<path to this repository>/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
+cd "<this folder>"
+
+ln -s "$(pwd)/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+ln -s "$(pwd)/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 ```
