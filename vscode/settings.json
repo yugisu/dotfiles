@@ -19,6 +19,7 @@
   "editor.minimap.enabled": false,
   "editor.showFoldingControls": "always",
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.highlightActiveIndentation": "always",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
   "workbench.editor.decorations.badges": false,
@@ -71,7 +72,6 @@
   "editor.renderControlCharacters": true,
 
   "editor.tabSize": 2,
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.dragAndDrop": false,
 
   "files.autoSave": "onFocusChange",
