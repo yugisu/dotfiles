@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    // "allowJs": true,
+    // "target": "",
+    // "lib": [],
+    // "noEmit": true,
+    // "resolveJsonModule": true,
+    // "moduleResolution": "node",
+
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
