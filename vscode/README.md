@@ -1,6 +1,6 @@
 # VSCode configuration
 
-## Extensions
+## Extensions (Outdated)
 
 [`extensions.json`](./extensions.json) file includes the list of common extensions I use.
 
@@ -13,6 +13,8 @@ $ ./install-extensions.mjs
 ## Appearance
 
 Font used: [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
+
+On MacOS, it is installed via Homebrew.
 
 ## Config
 
@@ -34,9 +36,5 @@ mklink C:\Users\yugisu\AppData\Roaming\Code\User\settings.json \\wsl.localhost\U
 #### Creating settings symlinks in MacOS
 
 ```bash
-# MacOS
-cd "<this folder>"
-
-ln -s "$(pwd)/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-ln -s "$(pwd)/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
+sh setup.sh
 ```

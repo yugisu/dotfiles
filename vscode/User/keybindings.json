@@ -1,0 +1,157 @@
+// Place your key bindings in this file to override the defaults
+[
+  //
+  // Editing
+  //
+  {
+    "key": "meta+shift+s",
+    "command": "workbench.action.files.saveWithoutFormatting",
+    "when": "isMac"
+  },
+  {
+    "key": "meta+shift+s",
+    "command": "-workbench.action.files.saveAs",
+    "when": "isMac"
+  },
+  {
+    "key": "alt+shift+s",
+    "command": "workbench.action.files.saveWithoutFormatting",
+    "when": "!isMac"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveWithoutFormatting",
+    "when": "!isMac"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.files.save",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+z",
+    "command": "undo",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+shift+z",
+    "command": "redo",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "!isMac && editorFocus"
+  },
+  {
+    "key": "alt+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "!isMac && editorFocus"
+  },
+
+  //
+  // Sidebar
+  //
+  {
+    "key": "meta+shift+b",
+    "command": "workbench.action.toggleActivityBarVisibility",
+    "when": "isMac"
+  },
+  {
+    "key": "meta+shift+b",
+    "command": "-workbench.action.tasks.build",
+    "when": "isMac"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.toggleActivityBarVisibility",
+    "when": "!isMac"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "-workbench.action.tasks.build",
+    "when": "!isMac"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "meta+shift+e",
+    "command": "workbench.view.explorer",
+    "when": "isMac"
+  },
+  {
+    "key": "alt+shift+e",
+    "command": "workbench.view.explorer",
+    "when": "!isMac"
+  },
+  {
+    "key": "meta+shift+g",
+    "command": "workbench.view.scm",
+    "when": "isMac"
+  },
+  {
+    "key": "alt+shift+g",
+    "command": "workbench.view.scm",
+    "when": "!isMac"
+  },
+
+  //
+  // Navigation
+  //
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpen",
+    "when": "isMac"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-actions.findWithSelection",
+    "when": "isMac"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+e",
+    "command": "workbench.action.quickOpen",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+r",
+    "command": "workbench.action.gotoSymbol",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "!isMac"
+  },
+  {
+    "key": "alt+shift+T",
+    "command": "workbench.action.reopenClosedEditor",
+    "when": "!isMac"
+  },
+
+  //
+  // Others
+  //
+  {
+    "key": "alt+escape",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  }
+]
