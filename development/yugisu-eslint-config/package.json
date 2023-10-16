@@ -1,0 +1,6 @@
+{
+  "name": "yugisu-eslint-config",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

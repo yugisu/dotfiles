@@ -15,7 +15,6 @@
   },
   "editor.fontFamily": "Source Code Pro, Consolas, monospace",
   "editor.fontSize": 15,
-  "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
   "editor.showFoldingControls": "always",
   "editor.bracketPairColorization.enabled": true,
@@ -246,16 +245,23 @@
     "nextjs",
     "paperxyz",
     "paywith",
+    "retriable",
     "Roadmap",
+    "sepolia",
     "shoppable",
     "Soldout",
     "tailwindcss",
+    "tamagui",
     "testid",
+    "Upsell",
+    "Upserting",
     "uuidv",
     "venv",
+    "viem",
     "webframeworks"
   ],
   "tailwindCSS.experimental.classRegex": [["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]],
   "errorLens.enabledDiagnosticLevels": ["error", "warning"],
-  "workbench.activityBar.visible": false
+  "workbench.sideBar.location": "right",
+  "sql-formatter.uppercase": true
 }

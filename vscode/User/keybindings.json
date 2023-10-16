@@ -53,6 +53,34 @@
     "command": "editor.action.copyLinesDownAction",
     "when": "!isMac && editorFocus"
   },
+  {
+    "key": "ctrl+alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-cursorWordStartLeft"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-cursorWordEndRight"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
 
   //
   // Sidebar
@@ -153,5 +181,10 @@
     "key": "ctrl+space",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "isMac && !terminalFocus"
   }
 ]

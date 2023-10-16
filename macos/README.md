@@ -2,13 +2,9 @@
 
 ## The Current MacOS Setup
 
-```shell
-sh homebrew.sh
-```
-
 The idea is to centralize all work within a couple applications and use Alt+Tab to switch between them. The Arc + VSCode setup plays along this idea very well: Arc is being used for browsing, development, communication etc., and VSCode is being used as a text editor with an integrated terminal.
 
-Things I use:
+Things that are used:
 
 Dev
 
@@ -44,21 +40,37 @@ Things to try out?
 - [yabai](https://github.com/koekeishiya/yabai)
 - [UTM](https://mac.getutm.app/) - setup Linux with i3 and stuff :)
 
+### Setup steps
+
+- Run the following commands one-by-one in the terminal:
+
+```shell
+xcode-select --install
+
+sudo xcodebuild -license
+
+softwareupdate --install-rosetta
+```
+
+- Install Homebrew & all deps from the [Brewfile](../Brewfile):
+
+```shell
+sh homebrew.sh
+```
+
+- Install required Ruby version
+
+```shell
+asdf plugin add ruby
+
+asdf install ruby 3.2.2
+asdf global ruby 3.2.2
+gem update --system
+```
+
 ### Program Settings
 
-TODO: Try Syncalicious
-
-Paths mapping: `home/` -> `$HOME/`
-
-#### iTerm2
-
-- `home/Library/Preferences/com.googlecode.iterm2.plist`
-- `home/Library/Preferences/com.googlecode.iterm2.private.plist`
-
-#### CommandQ
-
-- `home/Library/Preferences/com.commandqapp.CommandQ.plist`
-
-#### Witch
-
-- `home/Library/Application Support/Witch/`
+1. Open Syncalicious
+2. "Sync" programs you need
+3. Copy the folder that contains .plist and other files
+4. Paste this folder's contents on the new MacBook into `~/Library/Preferences`
