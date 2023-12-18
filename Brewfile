@@ -47,6 +47,8 @@ cask "font-source-code-pro"
 cask "font-sauce-code-pro-nerd-font"
 cask "google-cloud-sdk"
 cask "vysor"
+cask "mullvadvpn"
+cask "betterdisplay"
 
 vscode "teabyii.ayu"
 vscode "wayou.vscode-todo-highlight"
